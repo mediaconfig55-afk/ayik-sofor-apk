@@ -624,26 +624,34 @@ const App: React.FC = () => {
 
 const checkForUpdate = async () => {
   try {
-    // SİZİN GitHub Pages URL'niz
+    console.log("📱 Guncelleme kontrolu basladi...");
+    console.log("📊 Mevcut versiyon:", CURRENT_VERSION);
+    
     const versionUrl = "https://mediaconfig55-afk.github.io/ayik-sofor-apk/version.json";
+    console.log("🔗 Kontrol edilen URL:", versionUrl);
     
     const res = await fetch(versionUrl, { 
       cache: "no-store"
     });
 
     const data = await res.json();
-
+    console.log("📦 GitHub'dan gelen versiyon:", data.version);
+    
     if (data.version !== CURRENT_VERSION) {
+      console.log("🔄 Guncelleme gerekiyor!");
       const confirmUpdate = window.confirm(
         `${data.message}\n\nMevcut sürüm: ${CURRENT_VERSION}\nYeni sürüm: ${data.version}\n\nGüncellemek ister misiniz?`
       );
 
       if (confirmUpdate) {
+        console.log("📥 Guncelleme baslatiliyor:", data.apkUrl);
         window.open(data.apkUrl, "_system");
       }
+    } else {
+      console.log("✅ Guncelleme gerekmiyor, en guncel versiyon.");
     }
   } catch (err) {
-    console.log("Güncelleme kontrolü başarısız:", err);
+    console.log("❌ Güncelleme kontrolü başarısız:", err);
   }
 };
 
