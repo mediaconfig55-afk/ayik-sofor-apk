@@ -1,6 +1,12 @@
 {
   "version": "1.0.2",
-  "apkUrl": "https://github.com/mediaconfig55-afk/ayik-sofor-apk/releases/download/v1.0.1/app-release-unsigned.apk",
-  "message": "YENI SURUM: Konum kontrolu gelistirildi, hatalar duzeltildi.",
-  "forceUpdate": false
+  "message": "🔥 ACİL GÜNCELLEME!\n• Konum kontrolü iyileştirildi\n• Hata düzeltmeleri\n• Performans artışı",
+  "apkUrl": "https://github.com/mediaconfig55-afk/ayik-sofor-apk/releases/download/v1.0.2/app-release.apk",
+  "releaseDate": "2024-01-17",
+  "changelog": [
+    "✅ Konum servisi otomatik kontrol",
+    "✅ Geliştirilmiş hata mesajları",
+    "✅ Daha hızlı açılış süresi",
+    "✅ Kullanıcı deneyimi iyileştirmeleri"
+  ]
 }
