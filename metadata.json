@@ -1,0 +1,8 @@
+
+{
+  "name": "AYIK ŞOFÖR",
+  "description": "Profesyonel ve güvenilir ayık şoför hizmeti. Tek tıkla lokasyonunuzu paylaşın ve güvenle evinize ulaşın.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
