@@ -1,6 +1,6 @@
-{ 
-  "version": "1.0.1", 
-  "apkUrl": "https://github.com/mediaconfig55-afk/ayik-sofor-apk/releases/download/v1.0.1/app-release.apk", 
-  "message": "òlk gÅncelleme: Konum kontrol sistemi eklendi. Konum kapalçysa uyarç verir.", 
-  "forceUpdate": false 
-} 
+{
+  "version": "1.0.1",
+  "apkUrl": "https://github.com/mediaconfig55-afk/ayik-sofor-apk/releases/download/v1.0.1/app-release-unsigned.apk",
+  "message": "Yeni gÅncelleme: Konum kontrol sistemi eklendi. Konum kapalçysa uyarç verir.",
+  "forceUpdate": false
+}
